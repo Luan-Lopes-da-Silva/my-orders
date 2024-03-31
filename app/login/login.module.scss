@@ -1,0 +1,23 @@
+.container{
+    background-image: url('../../public/iwin-9lVdzDECVqk-unsplash.jpg');
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    width: 100%;
+   
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 460px;
+        backdrop-filter: blur(16px);
+        border-radius: 12px;
+        border: 2px solid #000;
+        input{
+            margin-top: 4px;
+            margin-bottom: 32px;
+        }
+    }
+}
